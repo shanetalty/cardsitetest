@@ -56,7 +56,7 @@
     // Load 3D Model
     const loader = new THREE.GLTFLoader();
     loader.load(
-      ‘card.’glb, // Replace with your model's URL
+      ‘card.glb', // Replace with your model's URL
       (gltf) => {
         const model = gltf.scene;
         scene.add(model);
